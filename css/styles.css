@@ -1,0 +1,170 @@
+:root {
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+  --font-color-1: #212121;
+  --font-color-2: #2196f3;
+  --font-color-3: #757575;
+  --font-color-4: #ffffff;
+  --background-color-1: #ffffff;
+  --background-color-2: #2f303a;
+  --background-color-3: #f5f4fa;
+  --button-background-color: #f5f4fa;
+  --button-background-color-hover: #2196f3;
+}
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4%;
+}
+body {
+  font-family: var(--font-primary);
+  /* color: var(--body-general-font-color); */
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--font-color-2);
+}
+.logo span {
+  color: var(--font-color-1);
+}
+.menu-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-color-1);
+}
+.menu-nav a:hover,
+.menu-nav a:focus,
+.header-contact a:hover,
+.header-contact a:focus {
+  color: var(--font-color-2);
+}
+.header-contact a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-color-3);
+}
+hr {
+  border: 1px solid #ececec;
+}
+.filter-item {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--font-color-1);
+  background-color: var(--button-background-color);
+  border-radius: 4px;
+}
+.filters button:hover,
+.filters button:focus {
+  color: var(--font-color-4);
+  background-color: var(--button-background-color-hover);
+}
+.products li h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--font-color-1);
+}
+.products li p {
+  line-height: 1.9;
+  color: var(--font-color-3);
+}
+.footer {
+  background-color: var(--background-color-2);
+  color: var(--font-color-4);
+  line-height: 1.7;
+}
+.footer a span {
+  color: var(--font-color-4);
+}
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+}
+.footer-contact li a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo {
+  line-height: 1.4;
+}
+.main-section {
+  background-color: var(--background-color-2);
+}
+.main-section h1 {
+  color: var(--font-color-4);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-button {
+  font-size: 16px;
+  background-color: var(--button-background-color-hover);
+  font-weight: 700;
+  line-height: 1.9;
+  display: flex;
+  /* align-items: center;
+  text-align: center; */
+  letter-spacing: 0.06em;
+  color: var(--font-color-4);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.temporary-lorem-class ul li h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--font-color-1);
+}
+.temporary-lorem-class ul li p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--font-color-3);
+}
+.our-team {
+  background-color: var(--background-color-3);
+}
+.what-we-do h2,
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team ul li h3 {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--font-color-1);
+}
+.our-team ul li p {
+  line-height: 1.18;
+  text-align: center;
+  color: var(--font-color-3);
+}
