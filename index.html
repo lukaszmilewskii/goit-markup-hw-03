@@ -21,29 +21,33 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="container">
-      <nav class="nav">
-        <a class="logo" href="./index.html">Web<span class="logo-dark">Studio</span></a>
-        <ul class="nav-menu">
-          <li><a class="nav-menu-link" href="./index.html">Agencja</a></li>
-          <li><a class="nav-menu-link" href="./porfolio.html">Portfolio</a></li>
-          <li><a class="nav-menu-link" href="#">Kontakt</a></li>
+    <header class="header">
+      <div class="container container-header">
+        <nav class="navigation">
+          <a class="logo" href="./index.html">Web<span>Studio</span></a>
+          <ul class="nav-menu">
+            <li><a class="nav-menu-link" href="./index.html">Agencja</a></li>
+            <li><a class="nav-menu-link" href="./porfolio.html">Portfolio</a></li>
+            <li><a class="nav-menu-link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contact">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul class="header-contact">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
-    <main class="container">
+    <main>
       <section class="main-section">
-        <h1>
-          Efektywne rozwiązania <br />
-          dla waszego biznesu
-        </h1>
-        <button class="main-button" type="button">Zamów usługę</button>
+        <div class="container main-section-container">
+          <h1>
+            Efektywne rozwiązania <br />
+            dla waszego biznesu
+          </h1>
+          <button class="main-button" type="button">Zamów usługę</button>
+        </div>
       </section>
-      <section class="temporary-lorem-class">
+      <section class="temporary-lorem-class section container">
         <ul>
           <li>
             <h3>LOREM IPSUM</h3>
@@ -75,7 +79,7 @@
           </li>
         </ul>
       </section>
-      <section class="what-we-do">
+      <section class="what-we-do section container">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -89,56 +93,70 @@
           </li>
         </ul>
       </section>
-      <section class="our-team">
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/john-product-designer.jpg"
-              alt="product designer"
-              width="270"
-              height="260"
-            />
-            <h3 class="person-name">John Doe</h3>
-            <p class="person-description">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/john-frontend.jpg"
-              alt="zdjęcie kobiety od frontend"
-              width="270"
-              height="260"
-            />
-            <h3 class="person-name">John Doe</h3>
-            <p class="person-description">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/john-marketing.jpg"
-              alt="pan od marketingu"
-              width="270"
-              height="260"
-            />
-            <h3 class="person-name">John Doe</h3>
-            <p class="person-description">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/john-ui.jpg" alt="ui designer" width="270" height="260" />
-            <h3 class="person-name">John Doe</h3>
-            <p class="person-description">UI Designer</p>
-          </li>
-        </ul>
+      <section class="our-team-container">
+        <div class="our-team section container">
+          <h2>Nasz zespół</h2>
+          <ul>
+            <figure class="our-team-item">
+              <li>
+                <img
+                  src="./images/john-product-designer.jpg"
+                  alt="product designer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <p>Product Designer</p>
+                </figcaption>
+              </li>
+            </figure>
+            <li>
+              <figure class="our-team-item">
+                <img
+                  src="./images/john-frontend.jpg"
+                  alt="zdjęcie kobiety od frontend"
+                  width="270"
+                  height="260"
+                />
+                <h3>John Doe</h3>
+                <p>Frontend Developer</p>
+              </figure>
+            </li>
+            <li>
+              <figure class="our-team-item">
+                <img
+                  src="./images/john-marketing.jpg"
+                  alt="pan od marketingu"
+                  width="270"
+                  height="260"
+                />
+                <h3>John Doe</h3>
+                <p>Marketing</p>
+              </figure>
+            </li>
+            <li>
+              <figure class="our-team-item">
+                <img src="./images/john-ui.jpg" alt="ui designer" width="270" height="260" />
+                <h3>John Doe</h3>
+                <p>UI Designer</p>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer container">
-      <a class="logo" href="./index.html">Web<span>Studio</span></a>
-      <address>
-        <ul class="footer-contact">
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <section class="container">
+        <a class="logo" href="./index.html">Web<span>Studio</span></a>
+        <address>
+          <ul class="footer-contact">
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>

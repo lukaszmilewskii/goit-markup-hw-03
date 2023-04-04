@@ -169,6 +169,11 @@ body {
 .logo {
   line-height: 1.4;
 }
+.main-section-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
 .main-section {
   background-color: var(--background-color-2);
 }
@@ -186,7 +191,9 @@ body {
   background-color: var(--button-background-color-hover);
   font-weight: 700;
   line-height: 1.9;
-  display: flex;
+  padding: 10px 41px;
+  margin-top: 30px;
+  /* display: flex; */
   /* align-items: center;
   text-align: center; */
   letter-spacing: 0.06em;
@@ -194,6 +201,9 @@ body {
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.temporary-lorem-class ul {
+  display: flex;
 }
 .temporary-lorem-class ul li h3 {
   font-weight: 700;
@@ -207,7 +217,17 @@ body {
   line-height: 1.71;
   color: var(--font-color-3);
 }
-.our-team {
+.what-we-do {
+  padding-top: 0px;
+}
+.what-we-do ul {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+  padding-top: 50px;
+  flex-basis: calc((100% - 60px) / 3);
+}
+.our-team-container {
   background-color: var(--background-color-3);
 }
 .what-we-do h2,
@@ -218,14 +238,30 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.our-team ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
 .our-team ul li h3 {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--font-color-1);
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .our-team ul li p {
   line-height: 1.18;
   text-align: center;
   color: var(--font-color-3);
+}
+.our-team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+}
+.team-member {
 }
