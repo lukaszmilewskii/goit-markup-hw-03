@@ -97,10 +97,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--font-color-3);
 }
-.filters {
-  display: flex;
-  flex-direction: column;
-}
 .filter-list {
   display: flex;
   justify-content: center;
@@ -151,8 +147,7 @@ body {
   background-color: var(--background-color-2);
   color: var(--font-color-4);
   line-height: 1.7;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 .footer a span {
   color: var(--font-color-4);
@@ -170,8 +165,7 @@ body {
   line-height: 1.4;
 }
 .main-section-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
   text-align: center;
 }
 .main-section {
@@ -199,7 +193,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--font-color-4);
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .temporary-lorem-class ul {
@@ -218,7 +212,7 @@ body {
   color: var(--font-color-3);
 }
 .what-we-do {
-  padding-top: 0px;
+  padding-top: 0;
 }
 .what-we-do ul {
   display: flex;
@@ -258,10 +252,9 @@ body {
   color: var(--font-color-3);
 }
 .our-team-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  background-color: var(--background-color-1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
   padding-bottom: 30px;
-}
-.team-member {
 }
